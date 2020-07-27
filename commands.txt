@@ -1,0 +1,26 @@
+#pip install (libraryname)
+#pip freeze (to see the libraries)
+#pip install requests( to requsts something)
+
+to create virtualenv steps:
+1. go to the path where you want to create virtual env.
+2. >virtualenv venv
+3. >pip freeze
+(to activate it)
+4. >venv\Scripts\activate.bat
+5. >pip freeze
+6. >pip install requests
+7. >pip freeze
+	(now if someone asks what libraries you need to view the project copy and paste the listed librarued from cmd.)
+
+pip install pillow (for image management)
+
+To uninstall requests:
+> pip uninstall requests pillow
+> cross check using pip freeze
+
+if you forgot something to install library in articular folder or file:
+> pip install (-requirements.txt)
+
+to exit from virtualenv:
+deactivate

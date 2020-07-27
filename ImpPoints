@@ -1,0 +1,1 @@
+'yield' can be used instead of return while using loops becoz if we dont want to exit the loop and continue iterating. It helps the momory and shows the items.
